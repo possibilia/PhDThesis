@@ -9,7 +9,8 @@ First we use `python robotracker.py repo/run/run` to extract the trajectory for 
 Running the `robotracker.py` script outputs three files into the directory `repo/run`: 
 
 - `<run>_coord.txt`
+- `<run>_trace.png`
+- `<run>_1stframe.png`
 
-
-
+Once these files have been generated, it is then possible to use the 
 
