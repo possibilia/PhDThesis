@@ -6,6 +6,10 @@ This folder contains analysis scripts and jupyter notebooks for the cul-de-sac s
 
 First we use `python robotracker.py repo/run/run` to extract the trajectory for a run using the optical flow method in OpenCV.  Note that the path to the run video excluded the file extension `.mp4`.  As the optical flow method can be sensitive to light conditions, the process for extracting and cleaning trajectories for analysis is semi-automatic.   Visual inspection is necessary for precision.  
 
+Running the `robotracker.py` script outputs three files into the directory `repo/run`: 
+
+- `<run>_coord.txt`
+
 
 
 
