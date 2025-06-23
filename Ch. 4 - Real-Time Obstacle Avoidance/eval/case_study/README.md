@@ -22,7 +22,7 @@ Once the trajectories have been extracted, we then use `clean_logs.ipynb` to ext
 
 ## Building the dataset
 
-Once the above steps have been done, we then run `python build_dataset.py` to iterate through all runs in `repo` and build a dataset, output as a `.csv` file. We have included `FMAS2024_DATA.csv` which is the dataset we used for analysis.  
+Once the above steps have been done, we then run `python build_dataset.py` to iterate through all runs in `repo` and build a dataset, output as a `.csv` file. We have included `DATASET.csv` which is the dataset we used for analysis.  
 
 ## Running analysis
 
