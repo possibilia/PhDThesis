@@ -28,7 +28,7 @@ It is then possible to run `analysis.ipnyb` to generate results.
 
 # `playground`
 
-This folder contains analysis scripts and jupyter notebooks for the playground scenario, which again assumes there is a repository of rawa date in some directory `repo`.  
+This folder contains analysis scripts and jupyter notebooks for the playground scenario, which again assumes there is a repository of raw data in some directory `repo`.  
 
 
 
