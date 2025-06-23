@@ -12,5 +12,9 @@ Running the `robotracker.py` script outputs three files into the directory `repo
 - `<run>_trace.png`
 - `<run>_1stframe.png`
 
-Once these files have been generated, it is then possible to load the trajectory using `clean_traj.ipynb`, manually inspect and clean it then write the final trajectory to `<repo/run/run>_coord.csv`.  Cleaning involves removing additional points that may have been picked up by the optical flow method in OpenCV and truncating so all trajectories start and end at the same entrance to the cul-de-sace.  We also specify the number of collisions observed and add this to run metadata in `repo/run/run.json`. 
+Once these files have been generated, it is then possible to load the trajectory using `clean_traj.ipynb`, manually inspect and clean it then write the final trajectory to `<repo/run/run>_coord.csv`.  Cleaning involves removing additional points that may have been picked up by the optical flow method in OpenCV and truncating so all trajectories start and end at the same entrance to the cul-de-sace.  We also specify the number of collisions observed and add this to run metadata in `repo/run/run.json`. This is repeated for each run. 
+
+## Extracting and cleaning log data
+
+Once the trajectories have been extracted, we then use `clean_logs.ipynb` to extract relevant data. 
 
