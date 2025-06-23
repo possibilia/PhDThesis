@@ -1,2 +1,5 @@
 10/
 build/
+
+.ipynb_checkpoints/
+.virtual_documents/
