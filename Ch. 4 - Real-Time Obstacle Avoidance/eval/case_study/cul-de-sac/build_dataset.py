@@ -35,7 +35,7 @@ for run in os.listdir(repo):
     data.append(row)
             
 df = pd.DataFrame(data, columns=cols);
-df.to_csv('FMAS2024_DATA_NEW.csv')
+df.to_csv('DATASET.csv')
 
 
         
