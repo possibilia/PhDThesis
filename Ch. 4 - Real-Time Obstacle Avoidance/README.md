@@ -1,6 +1,9 @@
 # Ch. 4 - Real-Time Obstacle Avoidance 
 
-Implementation of model checking for planning obstacle avoidance maneuvers by chaining temporary control tasks in response to disturbances.  At present the program is limited to static environments is not goal-directed.
+This directory contains the following folders: 
+
+- `eval` : supporting analysis code for evaluation of method
+- `src` : source code for planning method using model checking
 
 ## Hardware 
 
