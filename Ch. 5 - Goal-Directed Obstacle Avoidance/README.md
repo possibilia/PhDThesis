@@ -2,8 +2,8 @@
 
 This directory contains the following folders: 
 
-- `eval` : supporting analysis code for evaluation of method
-- `src` : source code for planning method and baseline
+- `eval` : supporting analysis code for evaluation of method in Ch. 5
+- `src` : source code for planning method and baseline in Ch. 5
 
 ## Prerequisites 
 
