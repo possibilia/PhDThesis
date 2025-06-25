@@ -1,6 +1,5 @@
-# Model checking for goal-directed obstacle avoidance
+# Ch. 5 - Goal-Directed Obstacle Avoidance
 
-Model checking for planning obstacle avoidance maneuvers by chaining temporary control tasks in response to disturbances. 
 
 ## Hardware 
 
