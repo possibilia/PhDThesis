@@ -7,7 +7,7 @@ More details provided in README documents for each chapter.
 `robotracker.py` is a script for extracting trajectories from robot videos using optical flow in OpenCV.  
 
 
-## Hardware Details
+## Hardware details
 
 <img src="https://github.com/possibilia/mcplanner/blob/main/robot.jpg" width="550" height="500">
 
