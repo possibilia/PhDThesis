@@ -5,18 +5,14 @@ This directory contains the following folders:
 - `eval` : supporting analysis code for evaluation of method
 - `src` : source code for planning method and baseline
 
-## Source code architecture
-
-<img src="https://github.com/possibilia/mcplanner/blob/main/agent.jpg" width="550" height="500">
-
-### Prerequisites 
+## Prerequisites 
 
 Install the following SDKs:
 
 - Servos - AlphaBot SDK https://github.com/berndporr/alphabot
 - Lidar - RPLIDAR A1M8 SDK https://github.com/berndporr/rplidar_rpi
 
-### Compile 
+## Compile 
 
 Add `src` folder to the Raspberry Pi, create a build directory using `mkdir build`.  
 
@@ -24,7 +20,7 @@ Navigate to the `build` directory and execute ```cmake ..``` to generate the bui
 
 Compile the program using ```make```
 
-### Run
+## Run
 
 ```sudo ./autoctrl```
 
