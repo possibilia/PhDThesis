@@ -1,10 +1,4 @@
-Supporting code for the case study in Chapter 4.   
-
-# cul-de-sac
-
-This folder contains analysis scripts and jupyter notebooks for the cul-de-sac scenario.  The analysis assumes that there is a repository of raw data in some directory `repo` and outputs all interim files to the repository during cleaning.  
-
-Raw data is available at: TODO!
+Supporting code for the case study in Chapter 5.   
 
 ## Trajectory preparation
 
@@ -29,25 +23,3 @@ Once the above steps have been done, we then run `python build_dataset.py` to it
 ## Running analysis
 
 It is then possible to run `analysis.ipynb` to generate results.  
-
-# playground
-
-This folder contains analysis scripts and jupyter notebooks for the playground scenario, which again assumes there is a repository of raw data in some directory `repo`.  
-
-Data is available at: TODO!
-
-### Trajectory preparation
-
-First we run `python robotracker.py repo/run/run` to extract the trajectory for a run using the optical flow method in OpenCV, as for the cul-de-sac scenario.  In this case, we are interested in `run_trace.png` as a visual representation of the trajectories for comparison.  This aspect is again done manually, however there are only two comparisons in this case.  We also view the video of the run `repo/run/run.mp4`, manually count the number of times the cul-de-sac feature is visited and time spent inside it.  
-
-### Extracting and cleaning log data
-
-As above, we extract and clean log data using `clean_logs.ipynb` and generate three files:
-
-- `repo/run/runmodel_check.csv` : model checking memory usage
-- `repo/run/runusage.csv` : process memory usage (model checking and baseline)
-- `repo/run/runplan.csv` :  model checking plan data
-
-### Running analysis
-
-As there are only two comparisons, we run `analysis.ipynb` using the data directly from `repo`. 
