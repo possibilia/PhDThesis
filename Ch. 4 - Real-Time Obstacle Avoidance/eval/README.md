@@ -1,6 +1,6 @@
 # robotracker.py
 
-Script for extracting robot trajectories from video using optical flow from OpenCV. It was used for the the case study (see below) and preliminary results. 
+Script for extracting robot trajectories from video.
 
 # case_study
 
