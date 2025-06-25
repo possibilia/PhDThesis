@@ -5,6 +5,8 @@ This directory contains the following folders:
 - `eval` : supporting analysis code for evaluation of method
 - `src` : source code for planning method and baseline
 
+## Source code architecture
+
 <img src="https://github.com/possibilia/mcplanner/blob/main/agent.jpg" width="550" height="500">
 
 ### Prerequisites 
