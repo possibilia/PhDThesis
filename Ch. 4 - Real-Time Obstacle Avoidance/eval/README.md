@@ -4,7 +4,7 @@ Script for extracting robot trajectories from video.
 
 # case_study
 
-Contains two subdirectories for each scenario with relevant scripts and jupyter notebooks. 
+Contains script and jupyter notebooks for the case study.  
 
 ## case_study/cul-de-sac
 
