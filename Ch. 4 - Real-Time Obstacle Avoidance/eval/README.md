@@ -1,12 +1,12 @@
-# `robotracker.py`
+# robotracker.py
 
-Script for extracting robot trajectories from video using optical flow from OpenCV. 
+Script for extracting robot trajectories from video using optical flow from OpenCV. It was used for the the case study (see below) and preliminary results. 
 
-# `case_study`
+# case_study
 
 Contains two subdirectories for each scenario with relevant scripts and jupyter notebooks. 
 
-## `cul-de-sac`
+## case_study/cul-de-sac
 
 This folder contains analysis scripts and jupyter notebooks for the cul-de-sac scenario.  The analysis assumes that there is a repository of raw data in some directory `repo` and outputs all interim files to the repository during cleaning.  
 
@@ -36,7 +36,7 @@ Once the above steps have been done, we then run `python build_dataset.py` to it
 
 It is then possible to run `analysis.ipynb` to generate results.  
 
-## `playground`
+## case_study/playground
 
 This folder contains analysis scripts and jupyter notebooks for the playground scenario, which again assumes there is a repository of raw data in some directory `repo`.  
 
