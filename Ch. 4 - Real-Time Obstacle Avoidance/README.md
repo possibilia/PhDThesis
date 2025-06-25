@@ -27,9 +27,9 @@ Install the following SDKs:
 
 ### Compile 
 
-Generate the build files
+Add `src` folder to the Raspberry Pi, create a build directory using `mkdir build`.  
 
-```cmake .```
+Navigate to the `build` directory and execute ```cmake ..```
 
 Compile the program
 
