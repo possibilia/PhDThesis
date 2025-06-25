@@ -1,3 +1,11 @@
+# `robotracker.py`
+
+Script for extracting robot trajectories from video using optical flow from OpenCV. 
+
+# `case_study`
+
+Contains two subdirectories for each scenario with relevant scripts and jupyter notebooks. 
+
 ## `cul-de-sac`
 
 This folder contains analysis scripts and jupyter notebooks for the cul-de-sac scenario.  The analysis assumes that there is a repository of raw data in some directory `repo` and outputs all interim files to the repository during cleaning.  
