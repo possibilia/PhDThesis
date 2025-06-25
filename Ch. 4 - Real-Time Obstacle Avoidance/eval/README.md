@@ -1,4 +1,4 @@
-This folder contains supporting code for the case study.  
+Supporting code for the case study in Chapter 4.   
 
 # cul-de-sac
 
