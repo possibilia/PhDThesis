@@ -7,10 +7,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('path', type=str, help='output path')
 args = parser.parse_args()
 
-with open('config.json') as infile:
-    config = json.load(infile)
-    
-repo = config['laptop']
+repo = '<path to repo>'
 
 cols = ['gap', 'pass', 'method', 'run', 'traj_length', 'collisions', 'goal',
         'run0', 'run1', 'run2', 'run3', 'run4', 'run5', 'run6', 'run7', 'run8', 'run9', 'n_plans',
@@ -39,7 +36,7 @@ for run in os.listdir(repo):
     data.append(row)
             
 df = pd.DataFrame(data, columns=cols);
-df.to_csv('FINAL_DATA_NEW.csv')
+df.to_csv('DATASET.csv')
 
 
         
