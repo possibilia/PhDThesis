@@ -7,20 +7,18 @@ This directory contains the following folders:
 
 ## Prerequisites 
 
-Install the following SDKs:
+Install the following SDKs on the Raspberry Pi:
 
 - Servos - AlphaBot SDK https://github.com/berndporr/alphabot
 - Lidar - RPLIDAR A1M8 SDK https://github.com/berndporr/rplidar_rpi
 
 ## Compile 
 
-Generate the build files
+Add `src` folder to the Raspberry Pi, create a build directory using `mkdir build`.  
 
-```cmake .```
+Navigate to the `build` directory and execute ```cmake ..``` to generate the build files. 
 
-Compile the program
-
-```make```
+Compile the program using ```make```
 
 ## Run
 
