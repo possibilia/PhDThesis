@@ -1,5 +1,9 @@
 # Ch. 5 - Goal-Directed Obstacle Avoidance
 
+This directory contains the following folders: 
+
+- `eval` : supporting analysis code for evaluation of method
+- `src` : source code for planning method and baseline
 
 ## Hardware 
 
