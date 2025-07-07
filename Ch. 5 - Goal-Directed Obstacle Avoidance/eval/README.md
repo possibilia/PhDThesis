@@ -1,5 +1,7 @@
 Supporting code for the case study in Chapter 5.   
 
+Data is available at https://doi.org/10.5525/gla.researchdata.2012
+
 ## Trajectory preparation
 
 First we run `python robotracker.py repo/run/run` to extract the trajectory for a run using the optical flow method in OpenCV.  Note that the path to the run video excludes the file extension `.mp4`.  As the optical flow method can be sensitive to light conditions, the process for extracting and cleaning trajectories for analysis is semi-automatic.   Visual inspection is necessary for precision.  
