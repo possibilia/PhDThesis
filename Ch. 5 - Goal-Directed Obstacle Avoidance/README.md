@@ -7,6 +7,12 @@ This directory contains the following folders:
 
 ## Prerequisites 
 
+Bullseye release of Raspberry Pi OS.
+
+Install development packages:
+
+`sudo apt install g++ cmake libpigpio-dev`
+
 Install the following SDKs on the Raspberry Pi:
 
 - Servos - AlphaBot SDK https://github.com/berndporr/alphabot
