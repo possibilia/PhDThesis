@@ -7,7 +7,7 @@ This directory contains the following folders:
 
 ## Prerequisites 
 
-Bullseye release of Raspberry Pi OS
+Bullseye release of Raspberry Pi OS.
 
 Install development packages:
 
