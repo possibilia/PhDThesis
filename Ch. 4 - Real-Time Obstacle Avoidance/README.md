@@ -7,7 +7,7 @@ This directory contains the following folders:
 
 ## Prerequisites 
 
-Install the following SDKs onf the Raspberry Pi:
+Install the following SDKs on the Raspberry Pi:
 
 - Servos - AlphaBot SDK https://github.com/berndporr/alphabot
 - Lidar - RPLIDAR A1M8 SDK https://github.com/berndporr/rplidar_rpi
