@@ -1,4 +1,4 @@
-# PhDThesis
+# PhDThesis [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15830809.svg)](https://doi.org/10.5281/zenodo.15830809)
 
 An online repository of code used in my PhD thesis.  
 
@@ -16,6 +16,5 @@ More details provided in README documents for each chapter.
 - Continuous rotation servos by Parallax https://www.parallax.com/product/parallax-continuous-rotation-servo/
 - Raspberry Pi 3 Model B https://www.raspberrypi.com/products/raspberry-pi-3-model-b/
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15830809.svg)](https://doi.org/10.5281/zenodo.15830809)
 
 
